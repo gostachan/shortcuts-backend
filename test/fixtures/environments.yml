@@ -1,0 +1,7 @@
+<% 10.times do |i| %>
+environment<%= i %>:
+  name: env_name_<%= i %>
+  user: alice
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+<% end %>

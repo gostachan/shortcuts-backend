@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  environment_id: 1
+  command: MyString
+  key_binding: MyString
+  condition: MyString
+  favorite: false
+
+two:
+  environment_id: 1
+  command: MyString
+  key_binding: MyString
+  condition: MyString
+  favorite: false
