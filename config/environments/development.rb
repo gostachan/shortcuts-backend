@@ -1,4 +1,8 @@
 Rails.application.configure do
+  config.hosts << "10.0.76.157:3000"
+  config.hosts << "0.0.0.0"
+
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
