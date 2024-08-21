@@ -23,7 +23,7 @@ class SessionsController < ApplicationController
   end
 
   def logged_in
-    render json: {status: logged_in? }, status: 200
+    render json: {logged_in: logged_in? }, status: 200
   end
 
 
